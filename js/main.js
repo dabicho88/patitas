@@ -75,7 +75,7 @@ function inyectaInfoDelPerrito(){
         <h2>${perrito.nombre}</h2>
       <p>Hola!, mi nombre es ${perrito.nombre}, soy un perro de tamaño ${perrito.tamanno}. Mi caracter la mayoría de las veces es muy ${elPerritoElegido[4]} y me encanta recibir cariño. Tengo ${elPerritoElegido[3]} añitos y  quisiera pasar los que me quedan junto a ti. Mi color es ${perrito.color} y mi pelaje es ${perrito.pelaje}. Sería maravilloso poder llenar nuestras vidas de recuerdos juntos. </p>
     <img src='img/${perrito.color}.jpg'>
-        <div class="refresh">Nueva Búsqueda</div>
+        <div class="refresh" onclick="window.location.reload()">Nueva Búsqueda</div>
     `;
     //Almacenando en localstorage los perritos favoritos
     localStorage.setItem('Tus perritos favoritos', perrito.nombre);
