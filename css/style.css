@@ -112,6 +112,8 @@ body{
   background-color: #5daf10c9;
   backdrop-filter: blur(15px);
   position: absolute;
+  bottom: -50px;
+  left:0;
   color: #fff;
   font-size: 15px;
   text-align: center;
